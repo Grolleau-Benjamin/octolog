@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = { version = "4.5.56", features = ["derive"] }
+nix = { version = "0.31.1", features = ["term", "fs"] }
+regex = "1.12.2"
+thiserror = "2.0.18"
+tokio = { version = "1.49.0", features = ["rt-multi-thread", "macros", "sync", "signal", "time", "io-util"] }
+tokio-serial = "5.4.5"
+chrono = { version = "0.4", features = ["clock"] }
+owo-colors = "4"
