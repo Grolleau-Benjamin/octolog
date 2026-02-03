@@ -4,6 +4,8 @@ Multi-serial-port log monitor for the terminal. Octolog connects to multiple
 serial devices at once, prints timestamped lines with per-port labels and
 colors, and optionally mirrors output to a file.
 
+![image-20260203095128979](./img/screen.png)
+
 ## Features
 
 - Read from multiple serial ports concurrently.
@@ -15,7 +17,6 @@ colors, and optionally mirrors output to a file.
 
 ## Requirements
 
-- Rust 1.85+ (edition 2024).
 - Access to serial devices on your OS (permissions may be required).
 
 ## Build
